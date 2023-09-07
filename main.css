@@ -162,16 +162,28 @@ a {
     margin-right: 2.4rem;
     border-radius: 5px;
     cursor: pointer;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon svg {
     font-size: 2.7rem;
     padding: 0.2em;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:last-of-type {
     /*sadece sonuncusu demis olduk*/
     margin-right: 0;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation: gradientAnimation 5s linear infinite;
 }
 
 @media (max-height: 750px) {
