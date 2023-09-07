@@ -125,6 +125,7 @@ a {
 .bcard__text-wrapper {
     margin-top: 1.8rem;
     margin-bottom: 1.8rem;
+    color: black;
 }
 
 .bcard__text-wrapper *+* {
