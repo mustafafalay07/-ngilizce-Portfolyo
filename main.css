@@ -71,6 +71,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 1.6rem;
+    color: black;
 }
 
 .bcard__heading-wrapper *+* {
