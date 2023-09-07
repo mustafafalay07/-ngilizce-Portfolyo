@@ -15,7 +15,6 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
-   
     background-color: #23252C;
     font-family: 'Inter', sans-serif;
 }
@@ -46,6 +45,7 @@ a {
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     object-position: top right;
+    display: block;
 
 }
 
