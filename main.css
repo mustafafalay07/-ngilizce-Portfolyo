@@ -149,6 +149,10 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon {
@@ -168,10 +172,6 @@ a {
 .bcardfooter-icon:last-of-type {
     /*sadece sonuncusu demis olduk*/
     margin-right: 0;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
 }
 
 @media (max-height: 750px) {
