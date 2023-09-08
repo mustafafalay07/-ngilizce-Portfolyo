@@ -122,11 +122,11 @@ a {
 }
 
 .bcard__btn--email:hover {
-    background-color: #000000;
+    background-color: #2bff00;
 }
 
 .bcard__btn--email:active {
-    background-color: #ff0000;
+    background-color: #7700ff;
 }
 .bcard__btn--linkedin {
     color: #FFFFFF;
@@ -139,6 +139,17 @@ a {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
+
+.bcard__btn--linkedin:hover {
+    background-color: #fffb00;
+}
+
+
+
+.bcard__btn--linkedin:active {
+    background-color: #ff0000;
+}
+
 
 .bcard__text-wrapper {
     margin-top: 1.8rem;
