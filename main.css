@@ -193,6 +193,13 @@ a {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
+ .bcardfooter-icon:hover {
+    background-color: #ffffff;
+}
+
+.bcard__btn--linkedin:active {
+    background-color: #00d9ff;
+}
 
 .bcardfooter-icon svg {
     font-size: 2.7rem;
