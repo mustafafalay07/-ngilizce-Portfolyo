@@ -193,11 +193,11 @@ a {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
- .bcardfooter:hover {
+ .bcardfooter-icon:hover {
     background-color: #ffffff;
 }
 
-  .bcardfooter:active {
+  .bcardfooter-icon:active {
     background-color: #00d9ff;
 }
 
