@@ -180,7 +180,7 @@ a {
     border-color: black;  
 }
 
-.bcardfooter:hover {
+.bcardfooter-icon:hover {
     transform: scale(1.2); /* İkonu büyütme animasyonu */
     transition: transform 0.9s ease; /* Animasyon süresi ve hız eğrisi */
   }
