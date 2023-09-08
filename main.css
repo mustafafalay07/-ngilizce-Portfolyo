@@ -199,11 +199,11 @@ a {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
- .bcardfooter-icon:hover {
+ .bcardfooter-icon svg:hover {
     background-color: #ffffff;
 }
 
-  .bcardfooter-icon:active {
+  .bcardfooter-icon svg:active {
     background-color: #00d9ff;
 }
 
