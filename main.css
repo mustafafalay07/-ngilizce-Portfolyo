@@ -147,10 +147,8 @@ a {
 }
 
 .bcard__btn--linkedin {
-    transform: scale(1.2);
-    /* İkonu büyütme animasyonu */
-    transition: transform 0.9s ease;
-    /* Animasyon süresi ve hız eğrisi */
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
 }
 
 .bcard__btn--linkedin:hover {
