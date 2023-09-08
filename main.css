@@ -129,7 +129,7 @@ a {
     background-color: #7700ff;
 }
 .bcard__btn--linkedin {
-    color: #FFFFFF;
+    color: #000000;
     box-shadow: 0px 1px 2px #3498db (0, 0, 0, 0.05);
     border-radius: 6px;
     padding: 10px 20px;
@@ -143,8 +143,6 @@ a {
 .bcard__btn--linkedin:hover {
     background-color: #fffb00;
 }
-
-
 
 .bcard__btn--linkedin:active {
     background-color: #ff0000;
