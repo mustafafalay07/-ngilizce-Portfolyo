@@ -18,10 +18,6 @@ body {
     background-color: #23252C;
 }
 
-body:hover {
-    transform: scale(1.2); /* İkonu büyütme animasyonu */
-    transition: transform 45s ease; /* Animasyon süresi ve hız eğrisi */
-  }
 a {
     all: unset;
 }
