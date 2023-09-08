@@ -10,10 +10,10 @@
 
 /* Fare imleci düğme üzerine geldiğinde */
 .animated-button:hover {
-    background-color: #2980b9;
+    background-color: #000000;
 }
 
 /* Düğmeye tıklandığında */
 .animated-button:active {
-    background-color: #1c6a8c;
+    background-color: #ff0000;
 }
