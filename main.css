@@ -107,6 +107,12 @@ a {
     margin-right: 1rem;
     font-size: 1.4rem;
 }
+  .bcard__btn--email{
+    transform: scale(1.2);
+    /* İkonu büyütme animasyonu */
+    transition: transform 0.9s ease;
+    /* Animasyon süresi ve hız eğrisi */
+}
 
 .bcard__btn--email {
     border: 1px solid #D1D5DB;
@@ -138,6 +144,13 @@ a {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+}
+
+.bcard__btn--linkedin {
+    transform: scale(1.2);
+    /* İkonu büyütme animasyonu */
+    transition: transform 0.9s ease;
+    /* Animasyon süresi ve hız eğrisi */
 }
 
 .bcard__btn--linkedin:hover {
