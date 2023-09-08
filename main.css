@@ -127,6 +127,7 @@ a {
 .bcard__btn--email:active {
     background-color: #7700ff;
 }
+
 .bcard__btn--linkedin {
     color: #000000;
     box-shadow: 0px 1px 2px #3498db (0, 0, 0, 0.05);
@@ -177,13 +178,15 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
-    border-color: black;  
+    border-color: black;
 }
 
 .bcardfooter-icon:hover {
-    transform: scale(1.2); /* İkonu büyütme animasyonu */
-    transition: transform 0.9s ease; /* Animasyon süresi ve hız eğrisi */
-  }
+    transform: scale(1.2);
+    /* İkonu büyütme animasyonu */
+    transition: transform 0.9s ease;
+    /* Animasyon süresi ve hız eğrisi */
+}
 
 .bcardfooter-icon {
     font-size: 2.7rem;
@@ -197,11 +200,12 @@ a {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
- .bcardfooter-icon svg:hover {
+
+.bcardfooter-icon svg:hover {
     background-color: #ffffff;
 }
 
-  .bcardfooter-icon svg:active {
+.bcardfooter-icon svg:active {
     background-color: #00d9ff;
 }
 
@@ -215,9 +219,8 @@ a {
 }
 
 .bcardfooter-icon:last-of-type {
-    /*sadece sonuncusu demis olduk*/
     margin-right: 0;
-      background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
