@@ -177,8 +177,13 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
-    border-color: black;
+    border-color: black;  
 }
+
+.bcardfooter:hover {
+    transform: scale(1.2); /* İkonu büyütme animasyonu */
+    transition: transform 0.9s ease; /* Animasyon süresi ve hız eğrisi */
+  }
 
 .bcardfooter-icon {
     font-size: 2.7rem;
