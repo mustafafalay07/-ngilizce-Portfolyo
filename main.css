@@ -147,7 +147,7 @@ a {
 }
 
 .bcard__btn--linkedin {
-    transform: scale(0.8);
+    transform: scale(99.9);
     transition: transform 0.5s ease;
 }
 
