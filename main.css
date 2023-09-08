@@ -193,11 +193,11 @@ a {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
- .bcardfooter-icon:hover {
+ .bcardfooter:hover {
     background-color: #ffffff;
 }
 
-.bcard__btn--linkedin:active {
+  .bcardfooter:active {
     background-color: #00d9ff;
 }
 
