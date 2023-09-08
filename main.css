@@ -20,7 +20,7 @@ body {
 
 body:hover {
     transform: scale(1.2); /* İkonu büyütme animasyonu */
-    transition: transform 0.3s ease; /* Animasyon süresi ve hız eğrisi */
+    transition: transform 45s ease; /* Animasyon süresi ve hız eğrisi */
   }
 a {
     all: unset;
