@@ -13,11 +13,10 @@ html {
 body {
     background: linear-gradient(-45deg, #ff00dd, #0400ff, #55008d, #ffee00);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
+    animation: gradient 15s ease infinite, gradientAnimation 5s linear infinite;
     background-color: #23252C;
-    transition: background-color 999s ease;
 }
+
 
 a {
     all: unset;
