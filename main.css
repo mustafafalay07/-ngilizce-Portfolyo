@@ -57,7 +57,7 @@ a {
     justify-content: center;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
@@ -178,7 +178,7 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
-    border-color: black;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 .bcardfooter-icon:hover {
