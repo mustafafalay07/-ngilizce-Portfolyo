@@ -16,6 +16,7 @@ body {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
     background-color: #23252C;
+    transition: background-color 0.5s ease;
 }
 
 a {
