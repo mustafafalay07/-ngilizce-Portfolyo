@@ -142,7 +142,7 @@ a {
 }
 
 .bcard__btn--email:hover {
-    background-color: #2bff00;
+    background-color: #00d9ff;
 }
 
 .bcard__btn--email:active {
@@ -162,11 +162,31 @@ a {
 }
 
 .bcard__btn--linkedin:hover {
-    background-color: #fffb00;
+    background-color: #ff0000;
 }
 
 .bcard__btn--linkedin:active {
     background-color: #ff0000;
+}
+
+.bcard__btn--codingcourse {
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bcard__btn--codingcourse:hover {
+    background-color: #ff00d4;
+}
+
+.bcard__btn--codingcourse:active {
+    background-color: #7700ff;
 }
 
 
