@@ -224,26 +224,6 @@ a {
     background: linear-gradient(-45deg, #1eff00, #00c3ff, #55008d, #ff0000);
     animation: gradient 15s linear infinite, gradientAnimation 5s linear infinite;
 }
-@keyframes gradient {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    100% {
-        background-position: 100% 100%;
-    }
-}
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 100% 0%;
-    }
-
-    100% {
-        background-position: 0% 100%;
-    }
-}
-
 .bcardfooter-icon:hover {
     transform: scale(1.2);
     /* İkonu büyütme animasyonu */
