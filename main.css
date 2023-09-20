@@ -222,6 +222,7 @@ a {
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
     background: linear-gradient(-45deg, #1eff00, #00c3ff, #55008d, #ff0000);
+    animation: gradient 15s linear infinite, gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:hover {
