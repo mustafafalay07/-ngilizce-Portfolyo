@@ -24,6 +24,7 @@ body {
     0% {
         background-position: 0% 0%;
     }
+
     100% {
         background-position: 100% 100%;
     }
@@ -33,6 +34,7 @@ body {
     0% {
         background-position: 100% 0%;
     }
+
     100% {
         background-position: 0% 100%;
     }
@@ -82,7 +84,7 @@ a {
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
     color: black;
-    
+
 }
 
 .bcard__heading-wrapper {
@@ -166,7 +168,7 @@ a {
 }
 
 .bcard__btn--linkedin:active {
-    background-color: #ff0000;
+    background-color: #00ffb3;
 }
 
 .bcard__btn--codingcourse {
