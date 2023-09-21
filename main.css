@@ -188,7 +188,7 @@ a{
     box-shadow: 0px 1px 2px rgba(52, 152, 219, 0.05); /* Renk değerini rgba ile belirtin */
     border-radius: 18px;
     padding: 10px 20px; /* Daha büyük bir içerik boyutu ekleyin */
-    margin: 10px; /* Kenar boşluğunu ayarlayın */
+    margin: 90px; /* Kenar boşluğunu ayarlayın */
     background-color: #3498db;
     color: #000000;
     border: none;
