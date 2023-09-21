@@ -159,7 +159,7 @@ a {
   .bcard__logo {
     width: 30px; /* Logo genişliğini ayarlayın */
     height: 30px; /* Logo yüksekliğini ayarlayın */
-    margin-right: 5px; /* Logo ile metin arasındaki boşluğu ayarla */
+    margin-right: 15px; /* Logo ile metin arasındaki boşluğu ayarla */
   }
   
   .bcard__btn-text {
