@@ -130,6 +130,35 @@ a {
     margin-right: 1rem;
     font-size: 1.4rem;
 }
+.bcard__btn--codingcourse {
+    display: flex;
+    align-items: center; /* İçeriği yatayda ve dikeyde ortala */
+    padding: 20px 40px; /* Butonun iç içe boyutunu ayarlayın */
+    background-color: #0073e6; /* Buton arkaplan rengi */
+    color: white; /* Buton metin rengi */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşe yuvarlama */
+  }
+  
+  .bcard__logo {
+    width: 30px; /* Logo genişliğini ayarlayın */
+    height: 30px; /* Logo yüksekliğini ayarlayın */
+    margin-right: 10px; /* Logo ile metin arasındaki boşluğu ayarla */
+  }
+  
+  .bcard__btn-text {
+    margin-left: auto; /* Metni sağa yasla, logoyu sola yaslar */
+  }
+  
+
+.bcard__btn--codingcourse:hover {
+    background-color: #ff8800;
+}
+
+.bcard__btn--codingcourse:active {
+    background-color: #ff9190;
+}
+
 
 .bcard__btn--email {
     border: 1px solid #D1D5DB;
@@ -171,43 +200,6 @@ a {
     background-color: #00ffb3;
 }
 
-.bcard__btn--codingcourse {
-
-}
-.bcard__btn--codingcourse {
-    display: flex;
-    align-items: center; /* İçeriği yatayda ve dikeyde ortala */
-    padding: 20px 40px; /* Butonun iç içe boyutunu ayarlayın */
-    color: white; /* Buton metin rengi */
-    border: none; /* Kenarlık yok */
-    border-radius: 5px; /* Köşe yuvarlama */
-    border: 1px solid #000000;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 10px 20px;
-    background-color: #fbff00;
-    color: black;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .bcard__logo {
-    width: 60px; /* Logo genişliğini ayarlayın */
-    height: 60px; /* Logo yüksekliğini ayarlayın */
-    margin-right: 10px; /* Logo ile metin arasındaki boşluğu ayarla */
-  }
-  
-  .bcard__btn-text {
-    margin-left: auto; /* Metni sağa yasla, logoyu sola yaslar */
-  }
-    
-.bcard__btn--codingcourse:hover {
-    background-color: #ff8800;
-}
-
-.bcard__btn--codingcourse:active {
-    background-color: #ff9190;
-}
 
 
 .bcard__text-wrapper {
