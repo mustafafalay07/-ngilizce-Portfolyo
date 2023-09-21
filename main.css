@@ -72,7 +72,7 @@ a {
 
 /* Body Styles */
 .bcard__body {
-    background-color: #1A1B21;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
