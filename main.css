@@ -153,7 +153,7 @@ a {
     background-color: #0073e6; /* Buton arkaplan rengi */
     color: white; /* Buton metin rengi */
     border: none; /* Kenarlık yok */
-    border-radius: 5px; /* Köşe yuvarlama */
+    border-radius: 10px; /* Köşe yuvarlama */
   }
   
   .bcard__logo {
