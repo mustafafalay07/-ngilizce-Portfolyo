@@ -150,7 +150,7 @@ a {
     display: flex;
     align-items: center; /* İçeriği yatayda ve dikeyde ortala */
     padding: 20px 40px; /* Butonun iç içe boyutunu ayarlayın */
-    background-color: #9900ff; /* Buton arkaplan rengi */
+    background-color: #ff8800; /* Buton arkaplan rengi */
     color: white; /* Buton metin rengi */
     border: none; /* Kenarlık yok */
     border-radius: 10px; /* Köşe yuvarlama */
