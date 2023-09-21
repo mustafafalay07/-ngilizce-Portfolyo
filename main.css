@@ -149,11 +149,11 @@ a {
   .bcard__btn--codingcourse {
     display: flex;
     align-items: center; /* İçeriği yatayda ve dikeyde ortala */
-    padding: 20px 40px; /* Butonun iç içe boyutunu ayarlayın */
-    background-color: #ff0062; /* Buton arkaplan rengi */
-    color: white; /* Buton metin rengi */
+    padding: 20px 20px; /* Butonun iç içe boyutunu ayarlayın */
+    background-color: #ee4646; /* Buton arkaplan rengi */
+    color: rgb(0, 0, 0); /* Buton metin rengi */
     border: none; /* Kenarlık yok */
-    border-radius: 10px; /* Köşe yuvarlama */
+    border-radius: 18px; /* Köşe yuvarlama */
   }
   
   .bcard__logo {
@@ -167,7 +167,7 @@ a {
   }
 
 .bcard__btn--codingcourse:hover {
-    background-color: #ff8800;
+    background-color: #eeff00;
 }
 
 .bcard__btn--codingcourse:active {
@@ -178,7 +178,7 @@ a {
 .bcard__btn--email {
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
+    border-radius: 18px;
     padding: 10px 20px;
     background-color: #ffffff;
     color: black;
@@ -192,13 +192,13 @@ a {
 }
 
 .bcard__btn--email:active {
-    background-color: #00b7ffcc;
+    background-color: #ffae00cc;
 }
 
 .bcard__btn--linkedin {
     color: #000000;
     box-shadow: 0px 1px 2px #3498db (0, 0, 0, 0.05);
-    border-radius: 6px;
+    border-radius: 18px;
     padding: 10px 20px;
     background-color: #3498db;
     color: #000000;
