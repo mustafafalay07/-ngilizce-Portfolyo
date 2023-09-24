@@ -84,9 +84,6 @@ a{
     color: black;
 }
 
-.bcard__heading-wrapper *+* {
-    margin-top: 0.5em;
-}
 
 .bcard__name {
     color: #FFFFFF;
