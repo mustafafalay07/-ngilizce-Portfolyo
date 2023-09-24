@@ -104,7 +104,7 @@ a{
 .bcard__btn-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
@@ -189,7 +189,7 @@ a{
     color: #000000;
     box-shadow: 0px 1px 2px rgba(52, 152, 219, 0.05);
     border-radius: 18px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     margin-right: 10px; /* Sağ kenar boşluğunu ayarla */
     background-color: #3498db;
     border: none;
