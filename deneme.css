@@ -14,29 +14,27 @@ body {
     background-color: #23252C;
     animation: gradient 15s linear infinite, gradientAnimation 5s linear infinite;
     background-size: 200% 200%;
-    text-align: center;
-    background-image: linear-gradient(45deg, #ff0000, #ff00ff, #ff00ff, #fffb00);
+    background-image: linear-gradient(45deg, #ff00dd, #00ff22, #55008d, #ffee00);
     color: white;
     text-align: center;
     font-size: 24px;
 }
 
+
+
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
-
-a {
-    all: unset;
+a{
+  all: unset;
 }
 
 .main {
@@ -67,8 +65,7 @@ a {
 
 /* Body Styles */
 .bcard__body {
-    background-color: rgba(255, 255, 255, 0.5);
-    /* Sadece arka plan opak */
+    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,8 +74,7 @@ a {
     padding-right: 5rem;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite, gradientAnimation 5s linear infinite;
-    color: black;
-    /* Metin rengi */
+    color: black; /* Metin rengi */
 }
 
 .bcard__heading-wrapper {
@@ -90,9 +86,6 @@ a {
     color: black;
 }
 
-.bcard__heading-wrapper *+* {
-    margin-top: 0.5em;
-}
 
 .bcard__name {
     color: #FFFFFF;
@@ -107,11 +100,12 @@ a {
     font-size: 1.28rem;
 }
 
-/*.bcard__btn-wrapper {
+.bcard__btn-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;                    
     width: 100%;
+    margin: 20px;
 }
 
 .bcard__btn {
@@ -119,77 +113,37 @@ a {
     height: 3.4rem;
     cursor: pointer;
 }
-*/
-
-element.style {
-}
-.bcard__btn-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
 .bcard__btn-icon {
     margin-right: 1rem;
     font-size: 1.4rem;
 }
-
 .bcard__btn--codingcourse {
     display: flex;
-    align-items: center;
-    /* İçeriği yatayda ve dikeyde ortala */
-    /*padding: 20px 40px;  Butonun iç içe boyutunu ayarlayın */
-    color: white;
-    /* Buton metin rengi */
-    border: none;
-    /* Kenarlık yok */
-    border-radius: 5px;
-    /* Köşe yuvarlama */
-    border: 1px solid #000000;
+    align-items: center; /* İçeriği yatayda ve dikeyde ortala */
+    color: white; /* Buton metin rengi */
+    margin: 10px;
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşe yuvarlama */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 10px 20px;
-    background-color: #fbff00;
+    padding: 15px 20px;
     color: black;
-    border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-}
+    background-color: #ee4646; /* Buton arkaplan rengi */
+    border-radius: 18px; /* Köşe yuvarlama */
 
-.bcard__btn--codingcourse {
-    display: flex;
-    align-items: center;
-    /* İçeriği yatayda ve dikeyde ortala */
-    /*  padding: 20px 20px; Butonun iç içe boyutunu ayarlayın */
-    background-color: #ee4646;
-    /* Buton arkaplan rengi */
-    color: rgb(0, 0, 0);
-    /* Buton metin rengi */
-    border: none;
-    /* Kenarlık yok */
-    border-radius: 18px;
-    /* Köşe yuvarlama */
-}
-
-.bcard__logo {
-    width: 30px;
-    /* Logo genişliğini ayarlayın */
-    height: 30px;
-    /* Logo yüksekliğini ayarlayın */
-    margin-right: 15px;
-    /* Logo ile metin arasındaki boşluğu ayarla */
-}
-
-.bcard__btn-text {
-    margin-left: auto;
-    /* Metni sağa yasla, logoyu sola yaslar */
-}
+  }
+  
+  .bcard__logo {
+    width: 30px; /* Logo genişliğini ayarlayın */
+    height: 30px; /* Logo yüksekliğini ayarlayın */
+    margin-right: 15px; /* Logo ile metin arasındaki boşluğu ayarla */
+  }
+  
+  .bcard__btn-text {
+    margin-left: auto; /* Metni sağa yasla, logoyu sola yaslar */
+  }
 
 .bcard__btn--codingcourse:hover {
     background-color: #eeff00;
@@ -198,24 +152,21 @@ element.style {
 .bcard__btn--codingcourse:active {
     background-color: #ff9190;
 }
-
 /* İkinci buton stilleri (.bcard__btn--email) */
-/*.bcard__btn--email {
+.bcard__btn--email {
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
     padding: 10px 20px;
-    margin-right: 10px;
-    /* Sağ kenar boşluğunu ayarla */
-   /* background-color: #ffffff;
+    margin-right: 10px; /* Sağ kenar boşluğunu ayarla */
+    background-color: #ffffff;
     color: black;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
+    
 }
-*/
-/*
+
 .bcard__btn--email:hover {
     background-color: #00d9ff;
 }
@@ -225,12 +176,12 @@ element.style {
 }
 
 /* İlk buton stilleri (.bcard__btn--linkedin) */
-/*.bcard__btn--linkedin {
+.bcard__btn--linkedin {
     color: #000000;
     box-shadow: 0px 1px 2px rgba(52, 152, 219, 0.05);
     border-radius: 18px;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 10px; /* Sağ kenar boşluğunu ayarla */
     background-color: #3498db;
     border: none;
     cursor: pointer;
@@ -245,19 +196,7 @@ element.style {
 .bcard__btn--linkedin:active {
     background-color: #00ffb3;
 }
-*/
-.bcard__btn--email{
-    background: #FFFFFF;
-    border: 1px solid #D1D5DB;
-     width: 50%;
-  }
-  
-  .bcard__btn--linkedin{
-    background: #5093E2;
-    color: #FFFFFF;
-    width: 50%;
-  }
-  
+
 .bcard__text-wrapper {
     margin-top: 1.8rem;
     margin-bottom: 1.8rem;
@@ -304,32 +243,24 @@ element.style {
     margin-right: 2.4rem;
     border-radius: 6px;
     cursor: pointer;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
+    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */  
 }
 
-.bcardfooter-icon svg:hover {
-    background-color: #ffffff;
-}
 
-.bcardfooter-icon svg:active {
-    background-color: #00d9ff;
-}
 
 .bcardfooter-icon svg {
     font-size: 2.7rem;
     padding: 0.2em;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
+    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:last-of-type {
     margin-right: 0;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
