@@ -89,14 +89,14 @@ a{
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .bcard__title {
     color: #ffffff;
     font-weight: 400;
     font-size: 1.28rem;
-   
+    
 }
 
 .bcard__btn-wrapper {
