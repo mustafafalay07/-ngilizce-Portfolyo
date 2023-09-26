@@ -20,18 +20,16 @@ body {
     font-size: 24px;
 }
 
-
-
 @keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 a{
   all: unset;
@@ -70,6 +68,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 10px 10px 0px 0px;
     padding-left: 3.5rem;
     padding-right: 5rem;
     background-size: 400% 400%;
@@ -91,19 +90,19 @@ a{
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .bcard__title {
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 40;
     font-size: 1.28rem;
 }
 
 .bcard__btn-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;                    
+    justify-content: center;
     width: 100%;
     margin: 20px;
 }
@@ -243,24 +242,32 @@ a{
     margin-right: 2.4rem;
     border-radius: 6px;
     cursor: pointer;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */  
+    animation: gradient 15s ease infinite;
+    animation: gradientAnimation 5s linear infinite;
 }
 
+.bcardfooter-icon svg:hover {
+    background-color: #ffffff;
+}
 
+.bcardfooter-icon svg:active {
+    background-color: #00d9ff;
+}
 
 .bcardfooter-icon svg {
     font-size: 2.7rem;
     padding: 0.2em;
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:last-of-type {
     margin-right: 0;
-    background-color: rgba(255, 255, 255, 0.5); /* Sadece arka plan opak */
+    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
