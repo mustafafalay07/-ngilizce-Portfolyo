@@ -264,7 +264,6 @@ a{
     margin-right: 0;
     background-size: 400% 400%;
     background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
-
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
