@@ -119,14 +119,11 @@ a{
 .bcard__btn--codingcourse {
     display: flex;
     align-items: center; /* İçeriği yatayda ve dikeyde ortala */
-    color: white; /* Buton metin rengi */
+    color: #000000; /* Buton metin rengi */
     margin: 10px;
     border: none; /* Kenarlık yok */
-    border-radius: 5px; /* Köşe yuvarlama */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 20px 20px;
-    color: black;
-    cursor: pointer;
+    padding: 19px 30px;
     transition: background-color 0.3s ease-in-out;
     background-color: #ee4646; /* Buton arkaplan rengi */
     border-radius: 18px; /* Köşe yuvarlama */
@@ -237,11 +234,9 @@ a{
 .bcardfooter-icon {
     font-size: 2.7rem;
     padding: 0.2em;
-    background-color: #918E9B;
     margin-right: 2.4rem;
     border-radius: 6px;
     cursor: pointer;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
@@ -258,7 +253,6 @@ a{
 .bcardfooter-icon svg {
     font-size: 2.7rem;
     padding: 0.2em;
-    background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
