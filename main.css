@@ -86,14 +86,14 @@ a{
 
 
 .bcard__name {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 30px;
 }
 
 .bcard__title {
-    color: #000000;
+    color: #ffffff;
     font-weight: 400;
     font-size: 1.28rem;
 }
@@ -119,11 +119,14 @@ a{
 .bcard__btn--codingcourse {
     display: flex;
     align-items: center; /* İçeriği yatayda ve dikeyde ortala */
-    color: #000000; /* Buton metin rengi */
+    color: white; /* Buton metin rengi */
     margin: 10px;
     border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşe yuvarlama */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 19px 30px;
+    padding: 20px 20px;
+    color: black;
+    cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     background-color: #ee4646; /* Buton arkaplan rengi */
     border-radius: 18px; /* Köşe yuvarlama */
@@ -204,13 +207,12 @@ a{
 
 .bcard__heading {
     color: #f5f5f5;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .bcard__text {
     color: grey;
-    font-size: 1.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.08rem;
 }
 
 /* Footer Styles */
@@ -235,6 +237,7 @@ a{
 .bcardfooter-icon {
     font-size: 2.7rem;
     padding: 0.2em;
+    background-color: #918E9B;
     margin-right: 2.4rem;
     border-radius: 6px;
     cursor: pointer;
@@ -263,8 +266,8 @@ a{
 
 .bcardfooter-icon:last-of-type {
     margin-right: 0;
-    background-size: 400% 400%;
     background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
+    background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation: gradientAnimation 5s linear infinite;
 }
