@@ -14,7 +14,7 @@ body {
     background-color: #23252C;
     animation: gradient 15s linear infinite, gradientAnimation 5s linear infinite;
     background-size: 200% 200%;
-    background-image: linear-gradient(45deg, #ff00dd, #00ff22, #55008d, #ffee00);
+    background-image: linear-gradient(45deg, #ff0080, #8000ff, #00ff80, #ff8000);
     color: white;
     text-align: center;
     font-size: 24px;
@@ -71,7 +71,6 @@ a{
     padding-left: 3.5rem;
     padding-right: 5rem;
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite, gradientAnimation 5s linear infinite;
     color: black; /* Metin rengi */
 }
 
@@ -224,7 +223,6 @@ a{
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
-    animation: gradient 15s linear infinite, gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:hover {
@@ -243,8 +241,6 @@ a{
     cursor: pointer;
     background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon svg:hover {
@@ -260,16 +256,12 @@ a{
     padding: 0.2em;
     background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
 }
 
 .bcardfooter-icon:last-of-type {
     margin-right: 0;
     background: linear-gradient(-45deg, #ff0000, #00ff0d, #490d70, #2dbdff);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    animation: gradientAnimation 5s linear infinite;
 }
 
 @media (max-height: 750px) {
